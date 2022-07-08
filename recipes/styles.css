@@ -1,0 +1,42 @@
+body {
+    background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: Impact, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h1, h3 {
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+title, .desc {
+    text-align: center;
+}
+
+
+.block {
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    width: min(70%, 500px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0. 0.50);
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    border: none;
+}
